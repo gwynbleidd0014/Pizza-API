@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jBP2NbN5bzyXLN8JLIND8oaAwY41gydFKE9EcwQRTEfrjU6QkfWYYXHynbvzTs0hLWfhqHMU3aPBTjduhKH2AA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mrnem\\source\\repos\\Pizza-API\\Pizza.Application\\Pizza.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrnem\\.nuget\\packages\\hashids.net\\1.7.0\\hashids.net.1.7.0.nupkg.sha512",
+    "C:\\Users\\mrnem\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\mrnem\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

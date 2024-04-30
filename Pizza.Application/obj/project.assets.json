@@ -1,0 +1,208 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Hashids.net/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Hashids.net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Hashids.net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Mapster/7.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Mapster.Core": "1.2.1"
+        },
+        "compile": {
+          "lib/net6.0/Mapster.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Mapster.dll": {}
+        }
+      },
+      "Mapster.Core/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Mapster.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Mapster.Core.dll": {}
+        }
+      },
+      "Pizza.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Pizza.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pizza.Domain.dll": {}
+        }
+      },
+      "Pizza.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Pizza.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pizza.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hashids.net/1.7.0": {
+      "sha512": "TuQ8ns5c+eeIOHSgJdwCLb0nWzKqn2gCPSLFoz6nWdhw3tS5Wa43qrwRXT4UJT7XVgHqKssacVU1SGlAOWjeIg==",
+      "type": "package",
+      "path": "hashids.net/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "hashids.net.1.7.0.nupkg.sha512",
+        "hashids.net.nuspec",
+        "hashids.png",
+        "lib/net6.0/Hashids.net.dll",
+        "lib/net6.0/Hashids.net.xml",
+        "lib/net7.0/Hashids.net.dll",
+        "lib/net7.0/Hashids.net.xml",
+        "lib/netstandard2.0/Hashids.net.dll",
+        "lib/netstandard2.0/Hashids.net.xml"
+      ]
+    },
+    "Mapster/7.4.0": {
+      "sha512": "RYGoDqvS4WTKIq0HDyPBBVIj6N0mluOCXQ1Vk95JKseMHEsbCXSEGKSlP95oL+s42IXAXbqvHj7p0YaRBUcfqg==",
+      "type": "package",
+      "path": "mapster/7.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Mapster.dll",
+        "lib/net7.0/Mapster.dll",
+        "mapster.7.4.0.nupkg.sha512",
+        "mapster.nuspec"
+      ]
+    },
+    "Mapster.Core/1.2.1": {
+      "sha512": "11lokmfliBEMMmjeqxFGNpqGXq6tN96zFqpBmfYeahr4Ybk63oDmeJmOflsATjobYkX248g5Y62oQ2NNnZaeww==",
+      "type": "package",
+      "path": "mapster.core/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Mapster.Core.dll",
+        "lib/net7.0/Mapster.Core.dll",
+        "mapster.core.1.2.1.nupkg.sha512",
+        "mapster.core.nuspec"
+      ]
+    },
+    "Pizza.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Pizza.Domain/Pizza.Domain.csproj",
+      "msbuildProject": "../Pizza.Domain/Pizza.Domain.csproj"
+    },
+    "Pizza.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Pizza.Persistence/Pizza.Persistence.csproj",
+      "msbuildProject": "../Pizza.Persistence/Pizza.Persistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Hashids.net >= 1.7.0",
+      "Mapster >= 7.4.0",
+      "Pizza.Domain >= 1.0.0",
+      "Pizza.Persistence >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mrnem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mrnem\\source\\repos\\Pizza-API\\Pizza.Application\\Pizza.Application.csproj",
+      "projectName": "Pizza.Application",
+      "projectPath": "C:\\Users\\mrnem\\source\\repos\\Pizza-API\\Pizza.Application\\Pizza.Application.csproj",
+      "packagesPath": "C:\\Users\\mrnem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mrnem\\source\\repos\\Pizza-API\\Pizza.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mrnem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\mrnem\\source\\repos\\Pizza-API\\Pizza.Domain\\Pizza.Domain.csproj": {
+              "projectPath": "C:\\Users\\mrnem\\source\\repos\\Pizza-API\\Pizza.Domain\\Pizza.Domain.csproj"
+            },
+            "C:\\Users\\mrnem\\source\\repos\\Pizza-API\\Pizza.Persistence\\Pizza.Persistence.csproj": {
+              "projectPath": "C:\\Users\\mrnem\\source\\repos\\Pizza-API\\Pizza.Persistence\\Pizza.Persistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Hashids.net": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Mapster": {
+            "target": "Package",
+            "version": "[7.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

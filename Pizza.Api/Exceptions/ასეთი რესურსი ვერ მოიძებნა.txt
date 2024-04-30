@@ -1,0 +1,24 @@
+2/26/2024 5:12:48 PM: ასეთი რესურსი ვერ მოიძებნა :    at Pizza.Application.Services.AddressSM.AddressService.Delete(String id) in C:\Users\mrnem\source\repos\UchaOmiadze\Day_37\Pizza\Pizza.Application\Services\AddressSM\AddressService.cs:line 31
+   at Pizza.Api.Controllers.v1.AddressController.Delete(String id) in C:\Users\mrnem\source\repos\UchaOmiadze\Day_37\Pizza\Pizza.Api\Controllers\v1\AddressController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Pizza.Api.Infrastructure.Middlewares.RequestResponseLogginHelper.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\mrnem\source\repos\UchaOmiadze\Day_37\Pizza\Pizza.Api\Infrastructure\Middlewares\RequestResponseLogginHelper.cs:line 17
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Pizza.Api.Infrastructure.Middlewares.CultureMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\mrnem\source\repos\UchaOmiadze\Day_37\Pizza\Pizza.Api\Infrastructure\Middlewares\CultureMiddleware.cs:line 15
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Pizza.Api.Infrastructure.Middlewares.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\mrnem\source\repos\UchaOmiadze\Day_37\Pizza\Pizza.Api\Infrastructure\Middlewares\ErrorHandlerMiddleware.cs:line 19
